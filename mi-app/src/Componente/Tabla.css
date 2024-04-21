@@ -1,0 +1,38 @@
+.cuadrado {
+    font-family: sans-serif;
+    border: solid 1px rgb(255, 244, 96)
+    
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+ 
+  table{
+    color: black;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;    
+  }
+  thead{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+  }
+
+    th{
+      padding: 20px 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+   td{
+    padding: 15px;
+    border-bottom: solid 2px rgb(255, 244, 96);
+   }
+
+   tbody tr:hover{
+    background: rgba(166, 165, 166, 0.4);
+   }
